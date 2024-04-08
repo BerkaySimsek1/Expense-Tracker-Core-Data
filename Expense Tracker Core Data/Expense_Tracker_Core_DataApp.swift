@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct Expense_Tracker_Core_DataApp: App {
+    @AppStorage("hasSeenOnboarding") var hasSeenOnboarding: Bool = false
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if hasSeenOnboarding {
+                TabBarView().environment(\.managedObjectContext, TransactionProvider.shared.viewContext)
+            } else {
+                OnboardingView()
+            }
         }
     }
 }

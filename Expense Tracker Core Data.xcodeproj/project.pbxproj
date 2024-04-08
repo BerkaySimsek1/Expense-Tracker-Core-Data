@@ -3,23 +3,46 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
-
-/* Begin PBXBuildFile section */
-		CE889FB02BC013560014186A /* Expense_Tracker_Core_DataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE889FAF2BC013560014186A /* Expense_Tracker_Core_DataApp.swift */; };
-		CE889FB22BC013560014186A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE889FB12BC013560014186A /* ContentView.swift */; };
-		CE889FB42BC013570014186A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE889FB32BC013570014186A /* Assets.xcassets */; };
-		CE889FB72BC013570014186A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE889FB62BC013570014186A /* Preview Assets.xcassets */; };
-/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE889FAC2BC013560014186A /* Expense Tracker Core Data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Expense Tracker Core Data.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE889FAF2BC013560014186A /* Expense_Tracker_Core_DataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense_Tracker_Core_DataApp.swift; sourceTree = "<group>"; };
-		CE889FB12BC013560014186A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CE889FB32BC013570014186A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CE889FB62BC013570014186A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CE0319262C4AECE300F1B7C7 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				"Core Data/TotalMoney.swift",
+				"Core Data/Transaction.swift",
+				"Core Data/TransactionProvider.swift",
+				EditTransactionViewModel.swift,
+				Expense_Tracker_Core_DataApp.swift,
+				"Preview Content/Preview Assets.xcassets",
+				TransactionDataModel.xcdatamodeld,
+				Utils/UIHelpers.swift,
+				Views/AddTransactionView/AddTransactionView.swift,
+				Views/ChartView/ChartData.swift,
+				Views/ChartView/ChartView.swift,
+				Views/ChartView/TimeCategory.swift,
+				Views/HomeView/HomeView.swift,
+				Views/HomeView/HomeViewLogic.swift,
+				Views/HomeView/HomeViewUIs.swift,
+				Views/OnboardingView/LatPageOnboarding.swift,
+				Views/OnboardingView/OnboardingUIs.swift,
+				Views/OnboardingView/OnboardingView.swift,
+				Views/ProfileView.swift,
+				Views/TabBarView.swift,
+			);
+			target = CE889FAB2BC013560014186A /* Expense Tracker Core Data */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CE0319182C4AECE300F1B7C7 /* Expense Tracker Core Data */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (CE0319262C4AECE300F1B7C7 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "Expense Tracker Core Data"; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CE889FA92BC013560014186A /* Frameworks */ = {
@@ -35,7 +58,7 @@
 		CE889FA32BC013560014186A = {
 			isa = PBXGroup;
 			children = (
-				CE889FAE2BC013560014186A /* Expense Tracker Core Data */,
+				CE0319182C4AECE300F1B7C7 /* Expense Tracker Core Data */,
 				CE889FAD2BC013560014186A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,25 +69,6 @@
 				CE889FAC2BC013560014186A /* Expense Tracker Core Data.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		CE889FAE2BC013560014186A /* Expense Tracker Core Data */ = {
-			isa = PBXGroup;
-			children = (
-				CE889FAF2BC013560014186A /* Expense_Tracker_Core_DataApp.swift */,
-				CE889FB12BC013560014186A /* ContentView.swift */,
-				CE889FB32BC013570014186A /* Assets.xcassets */,
-				CE889FB52BC013570014186A /* Preview Content */,
-			);
-			path = "Expense Tracker Core Data";
-			sourceTree = "<group>";
-		};
-		CE889FB52BC013570014186A /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				CE889FB62BC013570014186A /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +129,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE889FB72BC013570014186A /* Preview Assets.xcassets in Resources */,
-				CE889FB42BC013570014186A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +139,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE889FB22BC013560014186A /* ContentView.swift in Sources */,
-				CE889FB02BC013560014186A /* Expense_Tracker_Core_DataApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
