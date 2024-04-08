@@ -11,7 +11,7 @@ import SwiftUI
 struct Expense_Tracker_Core_DataApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabBarView().environment(\.managedObjectContext, TransactionProvider.shared.viewContext)
         }
     }
 }
