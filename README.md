@@ -20,7 +20,7 @@ Here are some screenshots showcasing the features and design of the Expanse Trac
 
 ### Income and Expenses Tracking
 <img src="https://github.com/user-attachments/assets/282d65b2-d2a3-42b5-ae70-fb0ea4c085e3" width="200" style="display: inline-block;">
-<img src="https://github.com/user-attachments/assets/ddceb6f3-af4f-4495-941f-799337f9e05d" width="200" style="display: inline-block;">
+<img src="https://github.com/user-attachments/assets/529b166e-27b4-407b-82e7-68216514e7a6" width="200" style="display: inline-block;">
 
-### Data Visualization with Charts
+### Charts
 <img src="https://github.com/user-attachments/assets/010fc9c5-5b40-438a-bea8-051cd45f4872" width="200" style="display: inline-block;">
